@@ -1,0 +1,41 @@
+{
+  "name": "moesif-koa-example",
+  "version": "1.0.0",
+  "description": "An example for using moesif-nodejs middleware",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moesif/moesif-koa-example"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "moesif",
+    "api",
+    "gateway",
+    "lambda",
+    "koa",
+    "api",
+    "debug",
+    "logging",
+    "trace",
+    "analytics"
+  ],
+  "author": "Derric Gilling",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "lodash": "^4.17.15",
+    "moesif-nodejs": "3.1.1",
+    "superagent": "^5.1.1"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
